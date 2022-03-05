@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="mb-4"></div>
+  <h4> This app computes and splits your travel/restaurant expenses among friends</h4>
+  <div class="mt-4"><p>Sign up with venmo username and any password of your choice</p>
+  <p>Add new events, enter your expenses and compute your cost</p>
+  <p>Make payments through Venmo API</p>
+  </div>
+  <ul>
+    <li><a href="/events/new">Add Event</a></li>
+    <li><a href="/events/list">List Events</a></li>
+    <li><a href="expenses/add_expense">Add Expense</a></li>
+  </ul>
+
+{% endblock %}
